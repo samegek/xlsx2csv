@@ -1453,11 +1453,12 @@ def main():
         help="include hidden rows",
     )
     parser.add_argument(
+        "-w",
         "--onlyShowIdname",
         dest="only_show_idname",
         default=False,
         action="store_true",
-        help="only show idname dont print data",
+        help="only show idname without cell data",
     )
 
     if argparser:
